@@ -23,23 +23,32 @@ Live App :- https://healthcare-intelligence-dashboard.streamlit.app/
 - Pandas  
 - Plotly  
 
-## Project Structure
+## 📁 Project Structure
+
+```text
+Healthcare-Operations-Dashboard/
+│
 ├── app.py
+│
 ├── myPages/
-│ ├── page1.py
-│ ├── page2.py
-│ ├── page3.py
-│ ├── page4.py
-│ ├── page5.py
-| ├── page6.py
-│ └── data_loader.py
+│   ├── page1.py
+│   ├── page2.py
+│   ├── page3.py
+│   ├── page4.py
+│   ├── page5.py
+│   ├── page6.py
+│   └── data_loader.py
+│
 ├── data/
-│ └── dataFinal.xlsx
+│   └── dataFinal.xlsx
+│
 ├── .streamlit/
-│ └── config.toml
+│   └── config.toml
+│
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 
 ## How to Run Locally
